@@ -1,4 +1,4 @@
-const scriptURL = 'https://script.google.com/macros/s/AKfycbyPKWWcr8coN0lxCwrZgYkjv1klXocGVf9VlGTfYFqXEWAfK1l8otiDptvOlCShkTQMKA/exec';
+const scriptURL = 'https://script.google.com/macros/s/AKfycbyNDNcH5346Goy2pks1Ukx4LNtmOPY1MS4WYSuJMUEeaZ6jQLKyEt9Ms9IhKjNQl-cXDA/exec';
 
 const perguntas = [
     { titulo: "Satisfação Geral", texto: "De forma geral, qual é seu nível de satisfação com os serviços prestados pela área de Suprimentos?", nome: "avaliacao_geral" },
@@ -11,6 +11,7 @@ const perguntas = [
     { titulo: "Custo-benefício", texto: "As soluções apresentadas pela área de Suprimentos oferecem bom custo-benefício?", nome:"custo"},
     { titulo: "Apoio ao negócio",texto : "A área de Suprimentos contribui de forma positiva para os resultados da sua área/departamento?", nome: "apoio"},
     { titulo: "Proativiade", texto: "A área de Suprimentos propõe melhorias, alternativas ou soluções além do solicitado?", nome: "proatividade"}
+    
 ];
 
 const legendas = ["Muito Insatisfeito", "Insatisfeito", "Neutro", "Satisfeito", "Muito Satisfeito"];
