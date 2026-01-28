@@ -1,9 +1,16 @@
-const scriptURL = 'https://script.google.com/macros/s/AKfycbxzcVo3NlvBc_8HKNMz0yJZZJbhjoOFaDA5v50TYwcAo5QOlmo4hPHnsCBwku8GgHlW8A/exec';
+const scriptURL = 'https://script.google.com/macros/s/AKfycbykIpXikXKJAkx-gV5CrO6UYCrE__voDMpwPuNIH3QEJ5h54AP7WRgWHSuG5Z9Wtkz5CA/exec';
 
 const perguntas = [
-    { titulo: "Atendimento da Equipe", texto: "Como você avalia a presteza e clareza da equipe de Suprimentos ao tirar dúvidas sobre suas solicitações?", nome: "avaliacao_geral" },
-    { titulo: "Agilidade no Processo", texto: "Como você avalia o tempo de resposta entre a abertura da requisição e a efetivação da compra?", nome: "ambiente" },
-    { titulo: "Qualidade dos Produtos/Serviços", texto: "De forma geral, os itens ou serviços entregues pelos fornecedores atendem às especificações solicitadas?", nome: "limpeza" },
+    { titulo: "Satisfação Geral", texto: "De forma geral, qual é seu nível de satisfação com os serviços prestados pela área de Suprimentos?", nome: "avaliacao_geral" },
+    { titulo: "Disponibilidade da equipe", texto: "Como você avalia a disponibilidade, quando você precisa suporte ou esclarecimento?", nome: "disponibilidade"},
+    { titulo: "Postura profissional", texto:"Como você avalia a cordialidade e o profissionalismo da equipe de Suprimentos?", nome:"postura"},
+    { titulo: "Cumprimento de prazos", texto:"A área de Suprimentos cumpre os prazos acordados para compras e contratações?", nome: "prazo"},
+    { titulo: "Conformidade com a solicitação", texto: "Os itens ou serviços entregues correspondem exatamente ao que foi solicitado ?", nome: "conformidade"},
+    { titulo: "Qualidade dos fornecedores", texto: "Como você avalia a qualidade dos fornecedores homologados pela área de Suprimentos?", nome: "qualidade" },
+    { titulo: "Resolução de problemas", texto: "Quando ocorre algum problema com produtos ou serviços, a área de Suprimentos atua de forma eficaz para solucioná-lo", nome: "resolucao" },
+    { titulo: "Custo-benefício", texto: "As soluções apresentadas pela área de Suprimentos oferecem bom custo-benefício?", nome:"custo"},
+    { titulo: "Apoio ao negócio",texto : "A área de Suprimentos contribui de forma positiva para os resultados da sua área/departamento?", nome: "apoio"},
+    { titulo: "Proativiade", texto: "A área de Suprimentos propõe melhorias, alternativas ou soluções além do solicitado?", nome: "proatividade"}
 ];
 
 const legendas = ["Muito Insatisfeito", "Insatisfeito", "Neutro", "Satisfeito", "Muito Satisfeito"];
