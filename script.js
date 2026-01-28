@@ -1,4 +1,4 @@
-const scriptURL = 'https://script.google.com/macros/s/AKfycbykIpXikXKJAkx-gV5CrO6UYCrE__voDMpwPuNIH3QEJ5h54AP7WRgWHSuG5Z9Wtkz5CA/exec';
+const scriptURL = 'https://script.google.com/macros/s/AKfycbyLmxmMRklwvbHs-qw9vCjqj6TwFCaVovPf7mFtj4VGfIlCCUsnTCgGRxzTqOLs3vPdRw/exec';
 
 const perguntas = [
     { titulo: "Satisfação Geral", texto: "De forma geral, qual é seu nível de satisfação com os serviços prestados pela área de Suprimentos?", nome: "avaliacao_geral" },
